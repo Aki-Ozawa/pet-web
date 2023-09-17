@@ -1,0 +1,27 @@
+.main-con {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.top-con {
+  background-image: url(https://img.freepik.com/free-photo/group-portrait-adorable-puppies_53876-64778.jpg?w=2000);
+  height: 70%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+}
+.main-p {
+  color: blue;
+}
+.down-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  border: solid 1px black;
+}
+.card {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFqEjl4qkmtwD3ShgMWFQg1hAl-4AElNvoQ&usqp=CAU);
+}
