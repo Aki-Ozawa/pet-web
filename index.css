@@ -16,12 +16,15 @@
 .main-p {
   color: blue;
 }
-.down-con {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 16px;
-  border: solid 1px black;
-}
+
 .card {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFqEjl4qkmtwD3ShgMWFQg1hAl-4AElNvoQ&usqp=CAU);
+  border: solid blue 1px;
+}
+.down-con {
+  border: solid 1px black;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
